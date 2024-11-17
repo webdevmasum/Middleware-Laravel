@@ -13,17 +13,23 @@ class BlogController extends Controller
     public function index()
     {
         return view("hello");
+        // this function will working get data from database
 
-        
-        
+
+
+
     }
 
     /**
      * Show the form for creating a new resource.
      */
     public function create()
+
     {
         // this function will working create data on database
+        // return view("hello");
+
+
     }
 
     /**
