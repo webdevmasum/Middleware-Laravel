@@ -13,6 +13,8 @@ class BlogController extends Controller
     public function index()
     {
         return view("hello");
+
+        
         
     }
 
@@ -21,7 +23,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+        // this function will working create data on database
     }
 
     /**
