@@ -28,8 +28,7 @@ class BlogController extends Controller
     {
         // this function will working create data on database
         // return view("hello");
-
-
+        return view("hello");
     }
 
     /**
